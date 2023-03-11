@@ -1,4 +1,4 @@
-package org.sde.login.model.service;
+package org.sde.login.service;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -8,8 +8,6 @@ import org.mockito.Mockito;
 import org.sde.login.LoginApplication;
 import org.sde.login.model.entity.User;
 import org.sde.login.model.repository.UserRepository;
-import org.sde.login.service.ServiceException;
-import org.sde.login.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
