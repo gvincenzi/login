@@ -1,0 +1,17 @@
+info:
+  name: Login project Test
+  artifact: '@project.artifactId@'
+  version: '@project.version@'
+
+spring:
+  application:
+    name: login
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    platform: org.hibernate.dialect.H2Dialect
+    username: root
+    password:
